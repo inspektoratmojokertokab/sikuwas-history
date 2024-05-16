@@ -13,10 +13,12 @@ main {
   flex: 1;
 }
 
-.sidebar {
-  position: sticky;
-  top: 0;
-  align-self: flex-start;
+@media (min-width: 768px) {
+  .sidebar {
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+  }
 }
 
 .logo {
