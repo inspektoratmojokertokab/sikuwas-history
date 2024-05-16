@@ -1,0 +1,18 @@
+nav {
+  background-color: rgb(101, 5, 5);
+  color: white;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.logo {
+  height: 30px;
+}
